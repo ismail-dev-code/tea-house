@@ -46,7 +46,7 @@
       <div class="hero bg-base-200 min-h-screen">
         <div class="hero-content flex-col lg:flex-row">
           <div>
-            <h1 class="text-7xl font-extrabold">
+            <h1 class="text-5xl lg:text-7xl font-extrabold">
               It's good <br />
               tea time at The <br />
               Tea House
@@ -84,7 +84,9 @@
           humour, or randomised words which don't look even slightly believable.
         </p>
         <!-- featured tea card container  -->
-        <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div
+          class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-3 lg:px-0"
+        >
           <!-- first card  -->
           <div
             class="p-8 card bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4] shadow-xl"
@@ -136,8 +138,8 @@
         </div>
       </section>
       <!-- great tea fresh tea section  -->
-      <section class="my-24 flex gap-12 flex-col lg:flex-row">
-        <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
+      <section class="my-24 flex gap-[52px] flex-col lg:flex-row">
+        <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1 px-3 lg:px-0">
           <div
             class="rounded-xl h-36 bg-gradient-to-r from-red-100 to-orange-100"
           ></div>
@@ -155,11 +157,11 @@
             class="rounded-xl h-36 bg-gradient-to-r from-[#d9d9d9] to-[#ffffff]"
           ></div>
         </div>
-        <div class="space-x-5 flex-1">
-          <h3 class="text-5xl font-extrabold">
+        <div class="flex-1">
+          <h3 class="text-5xl font-extrabold text-center lg:text-start mb-5">
             Great Tea, Freshly <br />Presented
           </h3>
-          <p>
+          <p class="lg:mb-7 mb-4">
             The meaning of gong cha is chanese is to provide the best tea to
             emperor from all possessions . It represents the highest quality and
             self expectation. Establishing in 2006, Gong cha had been deeply
@@ -255,7 +257,126 @@
           </div>
         </div>
       </section>
+      <!-- news and events section  -->
+      <section>
+        <div class="text-center">
+          <h1 class="lg:text-5xl text-4xl font-extrabold">News & Events</h1>
+          <p class="font-medium lg:w-[901px] text-center lg:mx-80 mt-5 mb-12">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="flex lg:flex-row flex-col justify-center px-3 mb-32 gap-6">
+          <div>
+            <div class="card bg-base-100 rounded-xl w-96 shadow-xl">
+              <figure>
+                <img class="mb-5" src="images/news-1.png" alt="News" />
+              </figure>
+              <div class="card-body">
+                <h6 class="font-medium text-[16px] mb-2">Feb 05, 2027</h6>
+                <h2 class="font-extrabold text-xl w-56">
+                  Collecting 8 points for discount
+                </h2>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available.
+                </p>
+                <h5 class="font-bold">Learn More</h5>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card bg-base-100 rounded-xl w-96 shadow-xl">
+              <figure>
+                <img class="mb-5" src="images/news-2.png" alt="News" />
+              </figure>
+              <div class="card-body">
+                <h6 class="font-medium text-[16px] mb-2">Feb 05, 2027</h6>
+                <h2 class="font-extrabold text-xl w-56">
+                  Collecting 8 points for discount
+                </h2>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available.
+                </p>
+                <h5 class="font-bold">Learn More</h5>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card bg-base-100 rounded-xl w-96 shadow-xl">
+              <figure>
+                <img class="mb-5" src="images/news-3.png" alt="News" />
+              </figure>
+              <div class="card-body">
+                <h6 class="font-medium text-[16px] mb-2">Feb 05, 2027</h6>
+                <h2 class="font-extrabold text-xl w-56">
+                  Collecting 8 points for discount
+                </h2>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available.
+                </p>
+                <h5 class="font-bold">Learn More</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="bg-[#ffe9e7] py-32 ">
+      <div class="lg:w-[1140px] mx-auto flex flex-col gap-10">
+        <div class="flex lg:flex-row flex-col lg:justify-between">
+          <img class="w-16 h-16" src="images/cup.png" alt="">
+          <div class="flex items-center gap-10 ">
+            <p>Ready to get started?</p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+       <div class="footer text-base-content py-10">
+        <nav>
+          <h6 class="footer-title">Quick Links</h6>
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Insurance</a>
+          <a class="link link-hover">Privacy Policy</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Our Service</h6>
+          <a class="link link-hover">Life Insurance</a>
+          <a class="link link-hover">Car Insurance</a>
+          <a class="link link-hover">Health Insurance</a>
+          <a class="link link-hover">House Insurance</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Help</h6>
+          <a class="link link-hover">FAQs</a>
+          <a class="link link-hover">Privacy Policy</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Subscribe to our newsletter</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="input input-bordered join-item"
+              />
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+       </div>
+        <div >
+          <p class="text-center">Copyright © 2024.FLProductsBD - All rights reserved by Faisal Industries Ltd</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
